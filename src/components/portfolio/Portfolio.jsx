@@ -20,14 +20,14 @@ const Portfolio = () => {
         <span className="work__item" onClick={() => setItems(Menu)}>
           Everything
         </span>
-        <span className="work__item" onClick={() => filterItem("Creative")}>
-          Creative
+        <span className="work__item" onClick={() => filterItem("E-commerce")}>
+        E-commerce
         </span>
-        <span className="work__item" onClick={() => filterItem("Art")}>
-          Art
+        <span className="work__item" onClick={() => filterItem("Food")}>
+         Food
         </span>
-        <span className="work__item" onClick={() => filterItem("Design")}>
-          Design
+        <span className="work__item" onClick={() => filterItem("Wordpress")}>
+        Wordpress
         </span>
         <span className="work__item" onClick={() => filterItem("Branding")}>
           Branding
@@ -36,7 +36,7 @@ const Portfolio = () => {
 
       <div className="work__container grid">
         {items.map((elem) => {
-          const { id, image, title, category } = elem;
+          const { id, image, title, category,link } = elem;
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
@@ -46,7 +46,7 @@ const Portfolio = () => {
 
               <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
-              <a href="#" className="work__button">
+              <a href={link} className="work__button">
                 <i className="icon-link work__button-icon"></i>
               </a>
             </div>

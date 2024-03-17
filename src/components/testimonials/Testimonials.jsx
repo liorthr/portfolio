@@ -1,6 +1,6 @@
 import React from "react";
 import "./testimonials.css";
-import Image1 from "../../assets/avatar-1.svg";
+import Image1 from "../../assets/avatar-3.svg";
 import Image3 from "../../assets/avatar-3.svg";
 // import Swiper core and required modules
 import { Pagination } from "swiper";

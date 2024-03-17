@@ -1,35 +1,39 @@
-import Work1 from "../../assets/work-1.svg";
-import Work2 from "../../assets/work-2.svg";
-import Work3 from "../../assets/work-3.svg";
-import Work4 from "../../assets/work-4.svg";
-import Work5 from "../../assets/work-5.svg";
-import Work6 from "../../assets/work-6.svg";
+import Work1 from "../../assets/project-petfy.png";
+import Work2 from "../../assets/project-goodleft.png";
+import Work3 from "../../assets/project-consulting26.png";
+import Work4 from "../../assets/project-formawork.png";
+import Work5 from "../../assets/project-petfy.png";
+import Work6 from "../../assets/project-petfy.png";
 
 const Menu = [
   {
     id: 1,
     image: Work1,
     title: "Project Management Illustration",
-    category: "Design",
+    category: "E-commerce",
+    link: 'https://www.petfy.fr/',
   },
   {
     id: 2,
     image: Work2,
     title: "Guest App Walkthrough Screens",
-    category: "Art",
+    category: "Food",
+    link: 'https://goodleft.com/#',
   },
   {
     id: 3,
     image: Work3,
     title: "Delivery App Wireframe",
-    category: "Branding",
+    category: "Wordpress",
+    link: 'https://consulting-26.com/',
   },
   ,
   {
     id: 4,
     image: Work4,
     title: "Onboarding Motivation",
-    category: "Design",
+    category: "Wordpress",
+    link: 'https://formawork.fr/',
   },
   ,
   {
@@ -37,6 +41,7 @@ const Menu = [
     image: Work5,
     title: "iMac Mockup Design",
     category: "Creative",
+    link: 'https://www.petfy.fr/',
   },
   ,
   {
@@ -44,6 +49,7 @@ const Menu = [
     image: Work6,
     title: "Game Store App Concept",
     category: "Art",
+    link: 'https://www.petfy.fr/',
   },
 ];
 

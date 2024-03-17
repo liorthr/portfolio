@@ -6,9 +6,9 @@ import Image3 from "../../assets/htmlcss-logo.svg";
 import Image4 from "../../assets/icons8-python (1).svg";
 import Image5 from "../../assets/icons8-react-js (2).svg";
 import Image6 from "../../assets/icons8-postgresql (2).svg";
-import Image7 from "../../assets/service-3.svg";
-import Image8 from "../../assets/service-3.svg";
-import Image9 from "../../assets/icons8-python (1).svg";
+import Image7 from "../../assets/icons8-linux-96.png";
+import Image8 from "../../assets/icons8-firebase-96.png";
+import Image9 from "../../assets/icons8-rest-api-100.png";
 
 
 const data = [
@@ -57,7 +57,7 @@ const data = [
   {
     id: 7,
     image: Image7,
-    title: "Django",
+    title: "Linux",
     description:
       "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
   },
